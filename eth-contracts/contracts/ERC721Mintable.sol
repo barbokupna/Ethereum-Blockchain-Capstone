@@ -29,8 +29,8 @@ contract Ownable {
         address indexed newOwner
     );
 
-    constructor(address owner) internal {
-        _owner = owner;
+    constructor() internal {
+        _owner = msg.sender;
     }
 
     function transferOwnership(address newOwner) public onlyOwner {
@@ -601,20 +601,13 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
 //      -returns a true boolean upon completion of the function
 //      -calls the superclass mint and setTokenURI functions
 contract CustomERC721Token is ERC721Metadata {
-    constructor()
-        public
-        ERC721Metadata(
-            "RealEstateBOR",
-            "BOR",
-            "https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/"
-        )
-    {}
+    constructor(
+        string memory name,
+        string memory symbol,
+        string memory baseTokenURI
+    ) public ERC721Metadata(name, symbol, baseTokenURI) {}
 
-    function mint(
-        address to,
-        uint256 tokenId,
-        string calldata tokenURI
-    ) external onlyOwner returns (bool) {
+    function mint(address to, uint256 tokenId) public onlyOwner returns (bool) {
         super._mint(to, tokenId);
         super.setTokenURI(tokenId);
     }
