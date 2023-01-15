@@ -16,7 +16,7 @@ contract Ownable {
 
     address private _owner;
 
-    function GetOwner() public returns (address) {
+    function getOwner() public returns (address) {
         return _owner;
     }
 
@@ -37,6 +37,7 @@ contract Ownable {
         // TODO add functionality to transfer control of the contract to a newOwner.
         // make sure the new owner is a real address
         require(newOwner != address(0), "New Owner is Not real address");
+        address prevOwner = _owner;
         _owner = newOwner;
     }
 }
@@ -280,7 +281,7 @@ contract ERC721 is Pausable, ERC165 {
         // TODO revert if given tokenId already exists or given address is invalid
         // TODO mint tokenId to given address & increase token count of owner
         // TODO emit Transfer event
-        require(_exists(tokenId), "TokenId Already Exists");
+        require(!_exists(tokenId), "TokenId Already Exists");
         require(to != address(0), "Invalid Address");
         _tokenOwner[tokenId] = to;
         _ownedTokensCount[to].increment();
