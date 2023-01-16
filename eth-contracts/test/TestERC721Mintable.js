@@ -16,7 +16,7 @@ contract('TestERC721Mintable', accounts => {
         beforeEach(async function () {
             this.contract = await ERC721MintableComplete.new("TestBO", "BO", baseTokenURI, { from: account_one });
 
-            // TODO: mint multiple tokens
+            // mint multiple tokens
             // console.log("account1: " + account_one);
             // console.log("account2: " + account_two);
 

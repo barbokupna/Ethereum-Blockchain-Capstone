@@ -5,9 +5,9 @@ import "./ERC721Mintable.sol";
 import "./verifier.sol";
 import {Pairing} from "./verifier.sol";
 
-// TODO define a contract call to the zokrates generated solidity contract <Verifier> or <renamedVerifier>
+// define a contract call to the zokrates generated solidity contract <Verifier> or <renamedVerifier>
 
-// TODO define another contract named SolnSquareVerifier that inherits from your ERC721Mintable class
+// define another contract named SolnSquareVerifier that inherits from your ERC721Mintable class
 contract SolnSquareVerifier is CustomERC721Token {
     ISolVerifier verifierContract;
     using Pairing for *;
@@ -21,22 +21,22 @@ contract SolnSquareVerifier is CustomERC721Token {
         verifierContract = ISolVerifier(verifierAddress);
     }
 
-    // TODO define a solutions struct that can hold an index & an address
+    // define a solutions struct that can hold an index & an address
     struct Solution {
         uint256 index;
         address solutionAddress;
     }
 
-    // TODO define an array of the above struct
+    // define an array of the above struct
     Solution[] private _squareSolutionVerArr;
 
-    // TODO define a mapping to store unique solutions submitted
+    // define a mapping to store unique solutions submitted
     mapping(bytes32 => Solution) _uniqueSquareSolution;
 
-    // TODO Create an event to emit when a solution is added
+    // Create an event to emit when a solution is added
     event solutionAdded(bytes32 key, address toAddress, uint256 tokenId);
 
-    // TODO Create a function to add the solutions to the array and emit the event
+    // Create a function to add the solutions to the array and emit the event
     function _addSolution(
         bytes32 key,
         address toAddress,
@@ -62,7 +62,7 @@ contract SolnSquareVerifier is CustomERC721Token {
     }
         
     
-    // TODO Create a function to mint new NFT only after the solution has been verified
+    // Create a function to mint new NFT only after the solution has been verified
     //  - make sure the solution is unique (has not been used before)
     //  - make sure you handle metadata as well as tokenSuplly
 
