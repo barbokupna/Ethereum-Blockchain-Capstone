@@ -41,13 +41,27 @@ contract SolnSquareVerifier is CustomERC721Token {
         bytes32 key,
         address toAddress,
         uint256 tokenId
-    ) internal {
-        _squareSolutionVerArr.push(Solution(tokenId, toAddress));
-        _uniqueSquareSolution[key] = Solution(tokenId, toAddress);
+    ) public {
+       _squareSolutionVerArr.push(Solution(tokenId, toAddress));
+       _uniqueSquareSolution[key] = Solution(tokenId, toAddress);
 
         emit solutionAdded(key, toAddress, tokenId);
     }
 
+    function _getKey(uint256[2] memory a,
+        uint256[2][2] memory b,
+        uint256[2] memory c,
+        uint256[2] memory input) public returns(bytes32) {
+              bytes32 key = keccak256(abi.encodePacked(a, b, c, input));
+              return key;
+        
+    }
+
+    function getUniqueSquareSolution(bytes32 key) external view returns(address) {
+        return _uniqueSquareSolution[key].solutionAddress;
+    }
+        
+    
     // TODO Create a function to mint new NFT only after the solution has been verified
     //  - make sure the solution is unique (has not been used before)
     //  - make sure you handle metadata as well as tokenSuplly
@@ -65,7 +79,7 @@ contract SolnSquareVerifier is CustomERC721Token {
 
         Pairing.G2Point memory vk_b = Pairing.G2Point(b[0], b[1]);
 
-        bytes32 key = keccak256(abi.encodePacked(a, b, c, input));
+        bytes32 key = _getKey(a, b, c, input);
 
         require(
             _uniqueSquareSolution[key].solutionAddress == address(0),
