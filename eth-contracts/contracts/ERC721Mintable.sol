@@ -308,7 +308,7 @@ contract ERC721 is Pausable, ERC165 {
         _tokenOwner[tokenId] = to;
         _ownedTokensCount[to].increment();
 
-         emit Transfer(from, to, tokenId);
+        emit Transfer(from, to, tokenId);
     }
 
     /**
@@ -590,8 +590,12 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
     // require the token exists before setting
 
     function setTokenURI(uint256 tokenId) internal {
-        require(_exists(tokenId));
-        _tokenURIs[tokenId] = strConcat(_baseTokenURI, uint2str(tokenId));
+        require(_exists(tokenId), "Token does NOT Exists");
+
+        _tokenURIs[tokenId] = usingOraclize.strConcat(
+            _baseTokenURI,
+            usingOraclize.uint2str(tokenId)
+        );
     }
 }
 
