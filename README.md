@@ -80,5 +80,35 @@ Summary
 > Total deployments:   4
 > Final cost:          0.0002355348539067 ETH
 
-2. https://goerli.etherscan.io/address/0xDB7103e5c6BceF1C1db3FAC38Cba02391aCa9C7d
-3. https://testnets.opensea.io/collection/boreal-estate-marketplace
+1. Setup: 
+    Truffle v5.7.1 (core: 5.7.1)
+    Ganache v7.6.0
+    Solidity v0.5.16 (solc-js)
+    Node v14.21.2
+    Web3.js v1.8.1
+
+2. Deploy : 
+    - npm install
+
+3. Test: 
+    truffle test ./TestERC721Mintable.js
+    truffle test ./TestSolnSquareVerifier.js
+    truffle test ./TestSquareVerifier.js
+
+4. Deploy:  truffle migrate --network goerli --reset
+
+5. Contract in goerli:
+    https://goerli.etherscan.io/address/0xDB7103e5c6BceF1C1db3FAC38Cba02391aCa9C7d
+
+6. Mint: 
+    folder: mint-nft: 
+    - npm install
+    - node mint-goerli.js
+
+7. OpenSea: 
+    https://testnets.opensea.io/collection/boreal-estate-marketplace
+
+8.  Used: https://github.com/andresaaap/mint-ntf
+
+9. I made no transactions bc fees are too high. 
+
