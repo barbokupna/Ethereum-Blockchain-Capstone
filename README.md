@@ -83,11 +83,11 @@ Summary
 SETUP
 =======
 1. Setup: 
-    Truffle v5.7.1 (core: 5.7.1)
-    Ganache v7.6.0
-    Solidity v0.5.16 (solc-js)
-    Node v14.21.2
-    Web3.js v1.8.1
+    - Truffle v5.7.1 (core: 5.7.1)
+    - Ganache v7.6.0
+    - Solidity v0.5.16 (solc-js)
+    - Node v14.21.2
+    - Web3.js v1.8.1
 
 2. Deploy : 
     - npm install
