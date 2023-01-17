@@ -93,14 +93,15 @@ SETUP
     - npm install
 
 3. Test: 
-    truffle test ./TestERC721Mintable.js
-    truffle test ./TestSolnSquareVerifier.js
-    truffle test ./TestSquareVerifier.js
+    - truffle test ./TestERC721Mintable.js
+    - truffle test ./TestSolnSquareVerifier.js
+    - truffle test ./TestSquareVerifier.js
 
-4. Deploy:  truffle migrate --network goerli --reset
+4. Deploy:  
+    - truffle migrate --network goerli --reset
 
 5. Contract in goerli:
-    https://goerli.etherscan.io/address/0xDB7103e5c6BceF1C1db3FAC38Cba02391aCa9C7d
+    - https://goerli.etherscan.io/address/0xDB7103e5c6BceF1C1db3FAC38Cba02391aCa9C7d
 
 6. Mint: 
     folder: mint-nft: 
@@ -108,7 +109,7 @@ SETUP
     - node mint-goerli.js
 
 7. OpenSea: 
-    https://testnets.opensea.io/collection/boreal-estate-marketplace
+    - https://testnets.opensea.io/collection/boreal-estate-marketplace
 
 8.  Used: https://github.com/andresaaap/mint-ntf
 
