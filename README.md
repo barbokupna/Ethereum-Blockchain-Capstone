@@ -80,6 +80,8 @@ Summary
 > Total deployments:   4
 > Final cost:          0.0002355348539067 ETH
 
+SETUP
+=======
 1. Setup: 
     Truffle v5.7.1 (core: 5.7.1)
     Ganache v7.6.0
