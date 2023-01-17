@@ -81,3 +81,4 @@ Summary
 > Final cost:          0.0002355348539067 ETH
 
 2. https://goerli.etherscan.io/address/0xDB7103e5c6BceF1C1db3FAC38Cba02391aCa9C7d
+3. https://testnets.opensea.io/collection/boreal-estate-marketplace
