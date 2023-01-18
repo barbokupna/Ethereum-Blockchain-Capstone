@@ -4,9 +4,9 @@
  Management of property titles creates opportuities for fraud and errors as well as innovation. Since current process is papaer based it is prone to errors which makes it illigal to trnsfer the property to the buyer untill the defects are rectified. This incures additional fees and delays proprty transfer. 
  In countries where the land is unregistered it is hard to prove legal ownership which imposes risk of having the land being seized from the owner.
  The project present solution for the mitigating title management issues by using the blockchain technology. It is implelemnted by tokenizing the property title. Before minting each token property ownership is verified using verification process based on zk-snarks. Once the properties are tokenized, they are listed on the openSea where users can transasact. 
- 
 
- 
+
+ Link below present additional uses cases for utitzing blockchain for Real Estate
  https://media.licdn.com/dms/document/C4D1FAQGy_fK3LHDiOQ/feedshare-document-pdf-analyzed/0/1674038451669?e=1674691200&v=beta&t=wSE4TvoJbrVqMH7o8EOkwsnRbLR8Cb8hXt4RxSO-RtA
  ## 💼 Table of Contents
 
