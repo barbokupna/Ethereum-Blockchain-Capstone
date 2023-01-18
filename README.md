@@ -1,5 +1,18 @@
 # Ethereum-Blockchain-Capstone
  
+ ## 💼 Table of Contents
+
+* [Features](#-features)
+* [Getting Started](#-getting-started)
+* [Documentation](#-documentation)
+* [Contributing](#-contributing)
+* [Developing](#-developing)
+  * [API](#-api)
+* [Community](#-community)
+* [License](#-license)
+* [Supporters](#-supporters)
+
+
 1. MIgrations:
 ======================
 
