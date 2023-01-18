@@ -1,5 +1,8 @@
 # Ethereum-Blockchain-Capstone
+ ![BTCPay Server](images/townhouses.jpeg)
+
  
+ https://media.licdn.com/dms/document/C4D1FAQGy_fK3LHDiOQ/feedshare-document-pdf-analyzed/0/1674038451669?e=1674691200&v=beta&t=wSE4TvoJbrVqMH7o8EOkwsnRbLR8Cb8hXt4RxSO-RtA
  ## 💼 Table of Contents
 
 * [Features](#-features)
