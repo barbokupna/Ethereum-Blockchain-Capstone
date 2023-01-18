@@ -38,9 +38,15 @@
     - Node v14.21.2
     - Web3.js v1.8.1
 
-* How To Build:
+* How To Build Locally:
     - npm install
-    - 
+    - truffle compile
+    - truffle migrate -reset
+
+* How To Test Locally:
+    - truffle test ./TestERC721Mintable.js
+    - truffle test ./TestSolnSquareVerifier.js
+    - truffle test ./TestSquareVerifier.js
   
 
 
