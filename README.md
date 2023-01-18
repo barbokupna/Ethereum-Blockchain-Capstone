@@ -11,8 +11,6 @@
  ## 💼 Table of Contents
 
 * [Features](#-features)
-* [Getting Started](#-getting-started)
-* [Documentation](#-documentation)
 * [Contributing](#-contributing)
 * [Developing](#-developing)
   * [API](#-api)
@@ -27,8 +25,6 @@
 * No transaction fees (other than the network fee)
 * Example of ERC721 contract implementation
 
-## 🚀 Getting Started
-
 
 ## 🧑‍💻 Developing
 * Local Environemnt: 
@@ -38,15 +34,17 @@
     - Node v14.21.2
     - Web3.js v1.8.1
 
-* How To Build Locally:
+* How To Build Localy:
     - npm install
     - truffle compile
     - truffle migrate -reset
 
-* How To Test Locally:
+* How To Test Localy:
     - truffle test ./TestERC721Mintable.js
     - truffle test ./TestSolnSquareVerifier.js
     - truffle test ./TestSquareVerifier.js
+
+
   
 
 
