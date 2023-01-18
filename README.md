@@ -21,6 +21,32 @@
 * [Supporters](#-supporters)
 
 
+## 🎨 Features
+
+* Direct, peer-to-peer property title transfer
+* No transaction fees (other than the network fee)
+* Example of ERC721 contract implementation
+
+## 🚀 Getting Started
+
+
+## 🧑‍💻 Developing
+* Local Environemnt: 
+    - Truffle v5.7.1 (core: 5.7.1)
+    - Ganache v7.6.0
+    - Solidity v0.5.16 (solc-js)
+    - Node v14.21.2
+    - Web3.js v1.8.1
+
+* How To Build:
+    - npm install
+    - 
+  
+
+
+
+
+
 1. MIgrations:
 ======================
 
