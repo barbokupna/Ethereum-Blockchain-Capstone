@@ -12,7 +12,7 @@
 
 * [Features](#features)
 * [Developing](#-developing)
-* [Deployed Contracts](#Deployed contracts)
+* [Deployed Contracts](#"Deployed contracts")
 * [Resources](#resources)
 
 
