@@ -8,7 +8,7 @@
 
  Link below present additional uses cases for utitzing blockchain for Real Estate
  https://media.licdn.com/dms/document/C4D1FAQGy_fK3LHDiOQ/feedshare-document-pdf-analyzed/0/1674038451669?e=1674691200&v=beta&t=wSE4TvoJbrVqMH7o8EOkwsnRbLR8Cb8hXt4RxSO-RtA
- ## 💼 Table of Contents
+ ## Table of Contents
 
 * [Features](#-features)
 * [Contributing](#-contributing)
@@ -19,30 +19,44 @@
 * [Supporters](#-supporters)
 
 
-## 🎨 Features
+## Features
 
 * Direct, peer-to-peer property title transfer
 * No transaction fees (other than the network fee)
 * Example of ERC721 contract implementation
 
 
-## 🧑‍💻 Developing
-* Local Environemnt: 
+## Developing
+* Versions: 
     - Truffle v5.7.1 (core: 5.7.1)
     - Ganache v7.6.0
     - Solidity v0.5.16 (solc-js)
     - Node v14.21.2
     - Web3.js v1.8.1
 
-* How To Build Localy:
+* Build Locally:
     - npm install
     - truffle compile
     - truffle migrate -reset
 
-* How To Test Localy:
+* Test Locally:
     - truffle test ./TestERC721Mintable.js
     - truffle test ./TestSolnSquareVerifier.js
     - truffle test ./TestSquareVerifier.js
+
+* Implement Zokrates
+| Contract Name | Contract Address |
+| ------------- | ------------- |
+| Step 1: Install Docker | You can find instructions for installing it [here](https://docs.docker.com/install/)|
+| Step 2: Run ZoKrates | docker run -v <Your path to zokrates>:/home/zokrates/code -ti zokrates/zokrates /bin/bash| 
+| Step 3: Compile the program written in ZoKrates DSL | cd code/zokrates/code/square/ </br> ~/zokrates compile -i square.code |
+| Step 4: Generate the Trusted Setup | ~/zokrates setup |
+| Step 5: Compute Witness | ~/zokrates compute-witness -a 3 9 |
+| Step 6: Generate Proof | ~/zokrates generate-proof |
+| Step 7: Export Verifier | ~/zokrates export-verifier|
+
+
+
 
 
   
