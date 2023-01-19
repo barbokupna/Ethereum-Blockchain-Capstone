@@ -6,7 +6,7 @@ let web3 = new Web3('https://goerli.infura.io/v3/6cbc11df16c1461b9181db09b6d7270
 
 
 const contract = require("C:/Users/okupna/Documents/GitHub/Ethereum-Blockchain-Capstone/eth-contracts/build/contracts/SolnSquareVerifier.json");
-const contractAddress = "0xDB7103e5c6BceF1C1db3FAC38Cba02391aCa9C7d";
+const contractAddress = "0x6098f42f7A618849A42eF670585d71cb5D298b7e";
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress);
 const privateKey = "16aa3304fede3343bfcffe42aa1ab4bed7b19b0f1e8f227d80820fbc60f77b12";
 const publicKey = "0x7A989d1dceC1F1745FB6193A155F8D7baa9dFA61";
@@ -26,7 +26,7 @@ async function mint() {
     'nonce': nonce,
     'gas': 500000,
     'maxPriorityFeePerGas': 1999999987,
-    'data': nftContract.methods.mint("0x3de5326e4FA15F48761DF56e1911AEf09a8cab14", 12).encodeABI()
+    'data': nftContract.methods.mint("0x3de5326e4FA15F48761DF56e1911AEf09a8cab14", 5).encodeABI()
   };
 
   const signPromise = web3.eth.accounts.signTransaction(tx, privateKey);
