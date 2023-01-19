@@ -79,6 +79,9 @@
     - OpenSea: 
         https://testnets.opensea.io/collection/bo-estate-marketplace
 
+    -ABI:
+        ./SolnSquareVerifierABI.json (https://github.com/barbokupna/Ethereum-Blockchain-Capstone/blob/main/SolnSquareVerifierABI.json)
+
 
 
 # Project Resources
