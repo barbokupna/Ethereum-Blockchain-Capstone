@@ -22,5 +22,5 @@ node mint.js
 2. Mint
 
 ```
-node mint-rinkeby.js
+node mint-goerli.js
 ```

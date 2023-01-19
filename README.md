@@ -56,6 +56,16 @@
 | Step 6: Generate Proof | ~/zokrates generate-proof |
 | Step 7: Export Verifier | ~/zokrates export-verifier|
 
+* Deployment
+    - truffle migrate --network goerli --reset
+
+* Mint Tokens
+    - use script mint-nft/mint-goerli
+
+
+
+
+
 
 
 
