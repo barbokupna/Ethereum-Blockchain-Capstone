@@ -85,7 +85,7 @@
 
 
 # Project Resources
-* [Mint] (https://github.com/andresaaap/mint-ntf)
+* [Mint](https://github.com/andresaaap/mint-ntf)
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Truffle Framework](https://truffleframework.com/)
