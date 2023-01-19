@@ -45,6 +45,7 @@
     - truffle test ./TestSquareVerifier.js
 
 * Implement Zokrates
+
 | Contract Name | Contract Address |
 | ------------- | ------------- |
 | Step 1: Install Docker | You can find instructions for installing it [here](https://docs.docker.com/install/)|
