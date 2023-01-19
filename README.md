@@ -11,9 +11,9 @@
  ## Table of Contents
 
 * [Features](#features)
-* [Developing](#developing)
-* [Deployed Contracts](#-contracts)
-* [Resources](#-Resources)
+* [Developing](#-developing)
+* [Deployed Contracts](#Deployed contracts)
+* [Resources](#resources)
 
 
 ## Features
