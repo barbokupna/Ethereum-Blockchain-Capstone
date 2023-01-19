@@ -10,13 +10,10 @@
  https://media.licdn.com/dms/document/C4D1FAQGy_fK3LHDiOQ/feedshare-document-pdf-analyzed/0/1674038451669?e=1674691200&v=beta&t=wSE4TvoJbrVqMH7o8EOkwsnRbLR8Cb8hXt4RxSO-RtA
  ## Table of Contents
 
-* [Features](#-features)
-* [Contributing](#-contributing)
-* [Developing](#-developing)
-  * [API](#-api)
-* [Community](#-community)
-* [License](#-license)
-* [Supporters](#-supporters)
+* [Features](#features)
+* [Developing](#developing)
+* [Deployed Contracts](#-contracts)
+* [Resources](#-Resources)
 
 
 ## Features
@@ -62,7 +59,7 @@
 * Mint Tokens
     - use script mint-nft/mint-goerli
 
-# Deployed Contracts Info
+# Deployed Contracts
     - Contract Address on Goerli Network
 
 | Contract Name | Contract Address |
@@ -84,7 +81,7 @@
 
 
 
-# Project Resources
+# Resources
 * [Mint](https://github.com/andresaaap/mint-ntf)
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
