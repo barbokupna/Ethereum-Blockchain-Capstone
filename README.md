@@ -26,7 +26,7 @@
 * Example of ERC721 contract implementation
 
 
-## Developing
+## 🧑‍💻 Developing
 * Versions: 
     - Truffle v5.7.1 (core: 5.7.1)
     - Ganache v7.6.0
