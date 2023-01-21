@@ -15,7 +15,6 @@ The project presents a solution for mitigating title management issues by using 
 * [Features](#features)
 * [Development](#development)
 * [Deployment](#deployment)
-* [Deployed Contracts](#deployed-contracts)
 * [Resources](#resources)
 
 
