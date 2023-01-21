@@ -1,9 +1,8 @@
 # Ethereum-Blockchain-Capstone
  ![BTCPay Server](images/townhouses.jpeg)
-
- Management of property titles creates opportuities for fraud and errors as well as innovation. Since current process is papaer based it is prone to errors which makes it illigal to trnsfer the property to the buyer untill the defects are rectified. This incures additional fees and delays proprty transfer. 
- In countries where the land is unregistered it is hard to prove legal ownership which imposes risk of having the land being seized from the owner.
- The project present solution for the mitigating title management issues by using the blockchain technology. It is implelemnted by tokenizing the property title. Before minting each token property ownership is verified using verification process based on zk-snarks. Once the properties are tokenized, they are listed on the openSea where users can transasact. 
+This is an example of using Blockchain to manage propery's title and sale transactions.
+Management of property titles creates opportunities for fraud and errors as well as innovation. The current process is paper based and prone to errors which delays transfer the property to the buyer and incurs additional cost. 
+In countries where the land is unregistered it is hard to prove legal ownership which imposes risk of having the land being seized from the owner. The project presents a solution for mitigating title management issues by using the blockchain technology. It is implemented by tokenizing the property title. Before minting each token property ownership is verified using a verification process based on zk-snarks. Once the properties are tokenized, they are listed on the openSea where users can transact.
 
 
  Link below present additional uses cases for utitzing blockchain for Real Estate
@@ -11,7 +10,7 @@
  ## Table of Contents
 
 * [Features](#features)
-* [Developing](#-developing)
+* [Developing](#developing)
 * [Deployed Contracts](#deployed-contracts)
 * [Resources](#resources)
 
@@ -23,7 +22,7 @@
 * Example of ERC721 contract implementation
 
 
-## 🧑‍💻 Developing
+## Developing
 * Versions: 
     - Truffle v5.7.1 (core: 5.7.1)
     - Ganache v7.6.0
