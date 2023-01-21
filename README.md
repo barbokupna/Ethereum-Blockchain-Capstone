@@ -53,15 +53,15 @@ The project implements ERC721 contract, [ERC721](https://docs.openzeppelin.com/c
 
 * Zokrates used to create the verifier.sol contract. 
 
-| Contract Name | Contract Address |
-| ------------- | ------------- |
-| Step 1: Install Docker | You can find instructions for installing it [here](https://docs.docker.com/install/)|
-| Step 2: Run ZoKrates | docker run -v <Your path to zokrates>:/home/zokrates/code -ti zokrates/zokrates /bin/bash| 
-| Step 3: Compile the program written in ZoKrates DSL | cd code/zokrates/code/square/ </br> ~/zokrates compile -i square.code |
-| Step 4: Generate the Trusted Setup | ~/zokrates setup |
-| Step 5: Compute Witness | ~/zokrates compute-witness -a 3 9 |
-| Step 6: Generate Proof | ~/zokrates generate-proof |
-| Step 7: Export Verifier | ~/zokrates export-verifier|
+    | Contract Name | Contract Address |
+    | ------------- | ------------- |
+    | Step 1: Install Docker | You can find instructions for installing it [here](https://docs.docker.com/install/)|
+    | Step 2: Run ZoKrates | docker run -v <Your path to zokrates>:/home/zokrates/code -ti zokrates/zokrates /bin/bash| 
+    | Step 3: Compile the program written in ZoKrates DSL | cd code/zokrates/code/square/ </br> ~/zokrates compile -i square.code |
+    | Step 4: Generate the Trusted Setup | ~/zokrates setup |
+    | Step 5: Compute Witness | ~/zokrates compute-witness -a 3 9 |
+    | Step 6: Generate Proof | ~/zokrates generate-proof |
+    | Step 7: Export Verifier | ~/zokrates export-verifier|
 
 ## Deployment 
 
