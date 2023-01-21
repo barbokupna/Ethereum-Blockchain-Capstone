@@ -74,20 +74,17 @@ The project implements ERC721 contract, [ERC721](https://docs.openzeppelin.com/c
 
 * Contracts addresses on Goerli Network
  
-| Contract Name | Contract Address |
-| ------------- | ------------- |
-| Migrations | 0x7E316a8Fa27Ce3086c32a51B32E935E8b1713cEF |
-| CustomERC721Token | 0xAC3Ac1036B69cf8458c081728ACD32601f1EDed8 |
-| Verifier | 0x3eae372475e145d5aa3D5516C2897230Df45638a |
-| SolnSquareVerifier | 0x6098f42f7A618849A42eF670585d71cb5D298b7e |
+    | Contract Name | Contract Address |
+    | ------------- | ------------- |
+    | Migrations | 0x7E316a8Fa27Ce3086c32a51B32E935E8b1713cEF |
+    | CustomERC721Token | 0xAC3Ac1036B69cf8458c081728ACD32601f1EDed8 |
+    | Verifier | 0x3eae372475e145d5aa3D5516C2897230Df45638a |
+    | SolnSquareVerifier | 0x6098f42f7A618849A42eF670585d71cb5D298b7e |
 
-   
-    - [Contract in goerli](https://goerli.etherscan.io/address/0x6098f42f7A618849A42eF670585d71cb5D298b7e)
-
-    - [OpenSea Seller](https://testnets.opensea.io/collection/bo-estate-marketplace)
 
     - [SolnSquareVerifierABI](./SolnSquareVerifierABI.json)
-
+    - [OpenSea Seller](https://testnets.opensea.io/collection/bo-estate-marketplace)
+    - [Contract in goerli](https://goerli.etherscan.io/address/0x6098f42f7A618849A42eF670585d71cb5D298b7e)
 
 
 # Resources
