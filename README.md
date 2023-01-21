@@ -13,7 +13,8 @@ The project presents a solution for mitigating title management issues by using 
  ## Table of Contents
 
 * [Features](#features)
-* [Developing](#developing)
+* [Development](#development)
+* [Deployment](#deployment)
 * [Deployed Contracts](#deployed-contracts)
 * [Resources](#resources)
 
@@ -25,7 +26,13 @@ The project presents a solution for mitigating title management issues by using 
 * Example of ERC721 contract implementation
 
 
-## Developing
+## Development
+The project implements ERC721 contract, [ERC721](https://docs.openzeppelin.com/contracts/3.x/erc721#:~:text=ERC721%20is%20a%20standard%20for,across%20a%20number%20of%20contracts). zk-SNARKs (zoKrates) is used to create verification system that proves ownership of the token. 
+* UML diagrams: 
+    - [ERC721Mintable.sol](UML/classDiagramMintable.svg)
+    - [SolnSquareVerifier.sol](UML/classDiagramSolnSquareVerifier.svg) - Extends ERC721Mintable implementation.
+    - [Verifier.sol](UML/classDiagramVerifier.svg) - Created by zoKrates. 
+
 * Versions: 
     - Truffle v5.7.1 (core: 5.7.1)
     - Ganache v7.6.0
@@ -33,7 +40,8 @@ The project presents a solution for mitigating title management issues by using 
     - Node v14.21.2
     - Web3.js v1.8.1
 
-* Build Locally:
+* Build/Run Locally:
+    - use ganache or truffle to run it 
     - npm install
     - truffle compile
     - truffle migrate -reset
@@ -43,7 +51,7 @@ The project presents a solution for mitigating title management issues by using 
     - truffle test ./TestSolnSquareVerifier.js
     - truffle test ./TestSquareVerifier.js
 
-* Implement Zokrates
+* Zokrates used to create the verifier.sol contract. 
 
 | Contract Name | Contract Address |
 | ------------- | ------------- |
@@ -55,15 +63,17 @@ The project presents a solution for mitigating title management issues by using 
 | Step 6: Generate Proof | ~/zokrates generate-proof |
 | Step 7: Export Verifier | ~/zokrates export-verifier|
 
-* Deployment
+## Deployment 
+
+* To deploy to the goerli testnet. 
+    - get testnet ETH: https://goerlifaucet.com/
     - truffle migrate --network goerli --reset
 
 * Mint Tokens
     - use script mint-nft/mint-goerli
 
-# Deployed Contracts
-    - Contract Address on Goerli Network
-
+* Contracts addresses on Goerli Network
+ 
 | Contract Name | Contract Address |
 | ------------- | ------------- |
 | Migrations | 0x7E316a8Fa27Ce3086c32a51B32E935E8b1713cEF |
@@ -72,14 +82,11 @@ The project presents a solution for mitigating title management issues by using 
 | SolnSquareVerifier | 0x6098f42f7A618849A42eF670585d71cb5D298b7e |
 
    
-    - Contract in goerli: 
-        https://goerli.etherscan.io/address/0x6098f42f7A618849A42eF670585d71cb5D298b7e
+    - [Contract in goerli](https://goerli.etherscan.io/address/0x6098f42f7A618849A42eF670585d71cb5D298b7e)
 
-    - OpenSea: 
-        https://testnets.opensea.io/collection/bo-estate-marketplace
+    - [OpenSea Seller](https://testnets.opensea.io/collection/bo-estate-marketplace)
 
-    -ABI:
-        ./SolnSquareVerifierABI.json (https://github.com/barbokupna/Ethereum-Blockchain-Capstone/blob/main/SolnSquareVerifierABI.json)
+    - [SolnSquareVerifierABI](./SolnSquareVerifierABI.json)
 
 
 
@@ -93,4 +100,5 @@ The project presents a solution for mitigating title management issues by using 
 * [Interactive zero knowledge 3-colorability demonstration](http://web.mit.edu/~ezyang/Public/graph/svg.html)
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
+* [UML](https://medium.com/@kccmeky/how-to-create-uml-class-diagram-from-your-solidity-contract-6bc050016da8)
 
