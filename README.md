@@ -1,8 +1,9 @@
 # Ethereum-Blockchain-Capstone
  ![BTCPay Server](images/townhouses.jpeg)
-This is an example of using Blockchain to manage propery's title and sale transactions.
-Management of property titles creates opportunities for fraud and errors as well as innovation. The current process is paper based and prone to errors which delays transfer the property to the buyer and incurs additional cost. 
-In countries where the land is unregistered it is hard to prove legal ownership which imposes risk of having the land being seized from the owner. The project presents a solution for mitigating title management issues by using the blockchain technology. It is implemented by tokenizing the property title. Before minting each token property ownership is verified using a verification process based on zk-snarks. Once the properties are tokenized, they are listed on the openSea where users can transact.
+This is an example of using Blockchain to manage propery's title transfer and sale.
+Today management of property titles creates opportunities for fraud and errors as well as innovation. The current process is paper based and prone to errors which delays transfer the property to the buyer and incurs additional cost. 
+In countries where the land is unregistered it is hard to prove legal ownership, which imposes risk of having the land being seized from the owner.
+The project presents a solution for mitigating title management issues by using the blockchain technology. It is implemented by tokenizing the property title. Before minting each token property ownership is verified using a verification process based on zk-snarks. Once the properties are tokenized, they are listed on the openSea where users can transact.
 
 
  Link below present additional uses cases for utitzing blockchain for Real Estate
